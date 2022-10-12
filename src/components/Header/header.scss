@@ -1,0 +1,18 @@
+@use 'src/styles/vars';
+
+.header {
+  background-color: vars.$color;
+  color: vars.$color-light;
+  padding: vars.$gutter * 3 0;
+  text-align: center;
+
+  &-title {
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  &-amount {
+    margin-top: vars.$gutter;
+    font-size: 1.3em;
+  }
+}
